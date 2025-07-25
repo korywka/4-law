@@ -25,7 +25,7 @@ export function LayerModel(origin: LngLatLike): CustomLayerInterface {
 			scene.add(ambientLight);
 
 			const loader = new GLTFLoader();
-			loader.load('/vehicle.glb', (model) => {
+			loader.load('/4-law/vehicle.glb', (model) => {
 				scene.add(model.scene);
 			});
 
