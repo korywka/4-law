@@ -10,6 +10,7 @@ const config = {
 		paths: {
 			base: '/4-law',
 		},
+		appDir: 'assets',
 	},
 };
 
